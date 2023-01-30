@@ -1,7 +1,7 @@
 package modules
 
 import (
-	tools "Users/similar/Desktop/mace/pkg"
+	tools "/pkg"
 	"regexp"
 	"strings"
 )
