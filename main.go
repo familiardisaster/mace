@@ -1,7 +1,7 @@
 package main
 
 import (
-	modules "Users/similar/Desktop/mace/modules"
+	modules "/modules"
 )
 
 func main() {
