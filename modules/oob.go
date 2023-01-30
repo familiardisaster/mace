@@ -8,7 +8,7 @@ import (
 
 func OOB(target string) {
 	targets := []string{}
-	payloads, _ := tools.ReadLines("/Users/similar/Desktop/mace/payloads/oob.txt")
+	payloads, _ := tools.ReadLines("/payloads/oob.txt")
 	regex := regexp.MustCompile(`\=(.)\&?`)
 	matches := regex.FindAllStringSubmatch(target, -1)
 	for _, match := range matches {
